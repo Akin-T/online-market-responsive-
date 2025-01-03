@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akın Market</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER KISMI  -->
+    <header class="header">
+      <a href="#" class="logo"><i class="fas fa-shopping-basket">MARKET</i></a>
+
+      <nav class="navbar">
+        <a href="#home">ANASAYFA</a>
+        <a href="#features">ÖZELLİKLER</a>
+        <a href="#products">ÜRÜNLER</a>
+        <a href="#categories">KATEGORİLER</a>
+        <a href="#review">DEĞERLENDİRMELER</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="Buradan Ara..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/cart-img-1.png" alt="" />
+          <div class="content">
+            <h3>Karpuz</h3>
+            <span class="price">5TL/</span>
+            <span class="quantity">Kg</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/cart-img-2.png" alt="" />
+          <div class="content">
+            <h3>Soğan</h3>
+            <span class="price">10TL/</span>
+            <span class="quantity">Kg</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/cart-img-3.png" alt="" />
+          <div class="content">
+            <h3>Tavuk</h3>
+            <span class="price">100TL/</span>
+            <span class="quantity">Kg</span>
+          </div>
+        </div>
+        <div class="total">Toplam: 300TL</div>
+        <a href="#" class="btn">Kontrol Et</a>
+
+        <form action="" class="login-form">
+          <h3>Giriş Yap</h3>
+          <input type="email" placeholder="Mail" class="box" />
+          <input type="password" placeholder="Parola" class="box" />
+          <p>Parolamı Unuttum<a href="#">Buraya Tıklayınız</a></p>
+          <p>Hesabım Yok <a href="#">Kayıt Ol</a></p>
+        </form>
+      </div>
+    </header>
+    <!-- HEADER BİTİŞ  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Taze ve <span>Organik</span> Ürünler İçin</h3>
+        <a href="#" class="btn">Şimdi Sipariş Ver</a>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <h1 class="heading">ÖZELLİKLERİMİZ</h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="image/feature-img-1.png" alt="" />
+          <h3>Taze ve Organik</h3>
+          <p>Ucuz fiyata taze sebze ve meyveler.</p>
+          <a href="#" class="btn">Daha Fazla</a>
+        </div>
+
+        <div class="box">
+          <img src="image/feature-img-2.png" alt="" />
+          <h3>Ücretsiz Teslimat</h3>
+          <p>Müşterilerimize her zaman hızlı teslimat.</p>
+          <a href="#" class="btn">Daha Fazla</a>
+        </div>
+
+        <div class="box">
+          <img src="image/feature-img-3.png" alt="" />
+          <h3>Kolay Ödeme</h3>
+          <p>Web sitemizden kolay ödeme yöntemi.</p>
+          <a href="#" class="btn">Daha Fazla</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <h1 class="heading">Ürünler</h1>
+      <div class="swiper product-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/product-1.png" alt="" />
+            <h3>Mandalina</h3>
+            <div class="price">10TL/Kg</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">Sepete Ekle</a>
+
+            <div class="swiper-slide box">
+              <img src="image/product-6.png" alt="" />
+              <h3>Avakado</h3>
+              <div class="price">50TL/Adet</div>
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+              </div>
+              <a href="#" class="btn">Sepete Ekle</a>
+
+              <div class="swiper-slide box">
+                <img src="image/product-7.png" alt="" />
+                <h3>Havuç</h3>
+                <div class="price">11TL/Kg</div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <a href="#" class="btn">Sepete Ekle</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories" id="categories">
+      <h1 class="heading"><span>İndirim</span> </h1>
+      <div class="box-container">
+  
+          <div class="box">
+              <img src="image/cat-1.png" alt="">
+              <h3>Sebzeler</h3>
+              <p>%25 indirim</p>
+              <a href="#" class="btn">Şimdi Al/a>
+          </div>
+          <div class="box">
+              <img src="image/cat-3.png" alt="">
+              <h3>Günlük Süt Ürünleri</h3>
+              <p>%25 indirim</p>
+              <a href="#" class="btn">Şimdi Al</a>
+          </div>
+  
+          <div class="box">
+              <img src="image/cat-4.png" alt="">
+              <h3>Taze Et</h3>
+              <p>%25 indirim</p>
+              <a href="#" class="btn">Şimdi Al</a>
+          </div>
+  
+          <div class="box">
+              <img src="image/product-9.png" alt="">
+              <h3>Yiyecek</h3>
+              <p>%5 indirim</p>
+              <a href="#" class="btn">Şimdi Al</a>
+          </div>
+      </div>
+  </section>
+
+  <section class="review" id="review">
+    <h1 class="heading">Müşteri <span>Yorumları</span></h1>
+    <div class="swiper review-slider">
+
+      <div class="swiper-slide box">
+        <img src="image/pic-1.png" alt="">
+        <p>Çok iyi bir market sitesi. Bu sitesindeki her şey kesinlikle harika. Hepiniz ürünlerinizi buradan satın alabilirsiniz.</p>
+        <h3>Akın</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <img src="image/pic-2.png" alt="">
+        <p>Çok iyi bir market sitesi. Bu sitesindeki her şey kesinlikle harika. Hepiniz ürünlerinizi buradan satın alabilirsiniz.</p>
+        <h3>İrem</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <img src="image/pic-3.png" alt="">
+        <p>Çok iyi bir market sitesi. Bu sitesindeki her şey kesinlikle harika. Hepiniz ürünlerinizi buradan satın alabilirsiniz.</p>
+        <h3>Ömer</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+
+      <div class="swiper-slide box">
+        <img src="image/pic-4.png" alt="">
+        <p>Çok iyi bir market sitesi. Bu sitesindeki her şey kesinlikle harika. Hepiniz ürünlerinizi buradan satın alabilirsiniz.</p>
+        <h3>Ayşe</h3>
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>Market <i class="fas fa-shopping-basket"></i></h3>
+    <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+    </div>
+      </div>
+
+      <div class="box">
+        <h3>İletişim Bilgileri</h3>
+        <a href="#" class="links"> <i class="fas fa-phone"></i> +90 55555555555</a>
+        <a href="#" class="links"> <i class="fas fa-phone"></i> +90 55555555555 </a>
+        <a href="#" class="links"> <i class="fas fa-envelope"></i> onlimemarket@gmail.com </a>
+        <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i> Türkiye / İstanbul </a>
+      </div>
+
+      <div class="box">
+        <h3>Hızlı Linkler</h3>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i> ANASAYFA</a>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i> ÖZELLİKLER </a>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i> ÜRÜNLER </a>
+        <a href="#" class="links"> <i class="fas fa-arrow-right"></i> KATEGORİLER </a>
+    </div>
+
+    <div class="box">
+      <h3>Bildirimler</h3>
+      <p>En son güncellemeler için abone olun !</p>
+      <input type="email" placeholder="mail" class="email">
+      <input type="submit" value="subscribe" class="btn">
+      <img src="image/payment.png" class="payment-img" alt="">
+  </div>
+    </div>
+  </section>
+
+  
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="app.js"></script>
+
+  </body>
+</html>
